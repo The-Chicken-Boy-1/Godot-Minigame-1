@@ -10,6 +10,7 @@ albedo_color = Color(0, 0.7705025, 0.100892015, 1)
 [sub_resource type="BoxShape3D" id="BoxShape3D_r150o"]
 
 [node name="Player" type="CharacterBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.977794, 0)
 collision_mask = 6
 script = ExtResource("1_v0iea")
 
